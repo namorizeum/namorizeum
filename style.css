@@ -1,0 +1,27 @@
+h1{
+    color: rosybrown;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 500%;
+    font-style: oblique;
+
+}
+body{
+    background-image:url(iconecoiffure.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#menu, #tarif{
+    color: red;
+    font-size: 1cm;
+    left: 15%;
+    
+}
+#tarif{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    transform: translate(0%, 0%);
+}
