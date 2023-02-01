@@ -3,12 +3,34 @@ html{
 }
 body{
     background-image: url(image/coiffure.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
-p{
-    font-size: 5rem;
+section{
+    display:flex;
+    flex-direction:row;
 }
-@media only screen and (max-width: 600px) {
+.menu li {
+    display: inline;
+    margin: 0 1rem;
+
+}
+
+h2{
+    background-color: red;
+}
+h2 + h2 {
+    background-color: green;
+}
+
+h2 + h2 + h2 {
+    background-color: blueviolet;
+}
+/* p{
+    font-size: 5rem;
+} */
+/* @media only screen and (max-width: 600px) {
     body {
       background-image: url(image/coiffeur1.jpg);
     }
@@ -16,9 +38,9 @@ p{
         display: block;
         max-width: 100%;
     }
-  }
-h1{
-    /* background-color: aqua; */
+  } */
+/* h1{
+    background-color: aqua;
     width: 45%;
     margin: 0 auto;
     color: rosybrown;
@@ -27,27 +49,27 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 500%;
     font-style: oblique;
-}
+} */
 /* body{
     background-image:url(iconecoiffure.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 } */
-#menu, #tarif{
+/* #menu, #tarif{
     color: red;
     font-size: 1cm;
     left: 15%;
     position:initial;
     top:0% ;
-}
+} */
 /* #tarif{
     position: absolute;
     top: 0%;
     left: 20%;  
     transform: translate(0%, 0%);
 } */
-h2{
+/* h2{
     text-align: center;
 }
 img{
@@ -59,4 +81,4 @@ img{
 }
 #top{
 
-}
+} */
