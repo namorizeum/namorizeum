@@ -1,8 +1,12 @@
 html{
     scroll-behavior: smooth;
 }
+h1{
+    text-align: center;
+}
+
 body{
-    background-image: url(image/coiffure.jpg);
+    background-color: rgb(251, 191, 201);
     background-size: cover;
     background-position: center;
 
