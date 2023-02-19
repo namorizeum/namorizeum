@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #0074C8;
+    --secondary-color: #FECE44;
+    --tertiary-color: #9B111;
+  }
+
+  .logo {
+    width: 1%;
+    margin-right: auto;
+    }
+
+    .logo img{
+      width: 955%;
+    }
+
+
+  /* Style général du menu */
+  nav {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Style des liens du menu */
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    display: block;
+  }
+  
+  .liensUl {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Style des liens actifs */
+  nav a.active {
+    background-color: var(--secondary-color);
+  }
+  li{
+    margin: 0 10px
+  }

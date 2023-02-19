@@ -3,46 +3,7 @@
 <head>
   <style>
     /* Couleurs inspirées de la Tunisie */
-    :root {
-      --primary-color: #0074C8;
-      --secondary-color: #FECE44;
-      --tertiary-color: #9B111;
-    }
     
-    /* Style général du menu */
-    nav {
-      background-color: var(--primary-color);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-    }
-    
-    /* Style des liens du menu */
-    nav a {
-      color: white;
-      text-decoration: none;
-      padding: 10px;
-      font-size: 18px;
-      transition: all 0.3s ease-in-out;
-    }
-    
-    /* Style des liens actifs */
-    nav a.active {
-      background-color: var(--secondary-color);
-    }
-    
-    /* Style des sous-onglets */
-    nav .sub-menu {
-      background-color: var(--tertiary-color);
-      position: absolute;
-      display: none;
-    }
-    
-    /* Afficher les sous-onglets lorsque le lien parent est actif */
-    nav a:hover + .sub-menu, nav .sub-menu:hover {
-      display: block;
-    }
   </style>
 </head>
 <body>
