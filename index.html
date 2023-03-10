@@ -5,21 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laure Coiffure</title>
+    <!-- https://kenwheeler.github.io/slick/ animation -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+      <!-- https://kenwheeler.github.io/slick/ animation -->
+
+    <!-- https://animate.style/ site web pour les animations -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- https://animate.style/ site web pour les animations -->
+
+    <!-- https://getbootstrap.com/ code bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
       defer
     ></script>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- fin du code bootstrap -->
     <link rel="shortcut icon" href="image/logo2.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="css/script.js" defer></script>
   </head>
 
   <body>
@@ -37,35 +53,101 @@
           <li><a href="page6/reservation.html">Reservation</a></li>
         </ul>
       </nav>
-      <h1>Coiffure a domicile</h1>        
+      <!-- <h1>Coiffure a domicile</h1>         -->
     </header>
 
     <main>
-      <section class="container-fluid position-relative">
-        <div class="row">
+      <section>
+        <div id="carouselExample" class="carousel slide ">
+          <div class="carousel-inner">
+            <div class="carousel-item active animate__animated animate__zoomIn">
+              <div  class="row" >
+                <div class="col-6 px-0">
+                  <img src="image/coif1.jpg" class="img-fluid image2 " alt="..." />
+                </div>
+                <div class="col-6 px-0 ms-auto">
+                  <img src="image/coif2.jpg" class="img-fluid image1" alt="..." />
+                </div>
+                <div 
+                  class="position-absolute top-50 start-50 translate-middle w-25 text-center"
+                >
+                  <div class="coiffeuse">
+                  
+                    <h3>Votre coiffeuse a domicile</h3>
+                    <a href="">Prestations</a>
+                    <a href="">Reservation</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item animate__animated animate__zoomIn">
+              <div  class="row" >
+                <div class="col-6 px-0">
+                  <img src="image/coif3.jpg" class="img-fluid image2 " alt="..." />
+                </div>
+                <div class="col-6 px-0 ms-auto">
+                  <img src="image/Coif4.jpg" class="img-fluid image1" alt="..." />
+                </div>
+                <div 
+                  class="position-absolute top-50 start-50 translate-middle w-25 text-center"
+                >
+                  <div class="coiffeuse">
+                  
+                    <h3>Votre coiffeuse a domicile</h3>
+                    <a href="">Prestations</a>
+                    <a href="">Reservation</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section  class="container-fluid position-relative animate__animated animate__zoomIn" >
+        <div  class="row" >
           <div class="col-6 px-0">
-            <img src="image/coif1.jpg" class="img-fluid image2" alt="..." />
+            <img src="image/coif1.jpg" class="img-fluid image2 " alt="..." />
           </div>
           <div class="col-6 px-0 ms-auto">
             <img src="image/coif2.jpg" class="img-fluid image1" alt="..." />
           </div>
-          <div
-            class="position-absolute top-50 start-50 translate-middle w-50 text-center border"
+          <div 
+            class="position-absolute top-50 start-50 translate-middle w-25 text-center"
           >
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint
-              sed reiciendis nesciunt qui, impedit aliquid quae repellat cum
-              illum iste natus eveniet corporis veritatis excepturi ex tempore
-              minus amet! Quos delectus assumenda totam perferendis officiis
-              voluptas repudiandae eum facere, aut similique obcaecati minus,
-              repellat facilis amet, alias provident laudantium.
-            </p>
+            <div class="coiffeuse">
+            
+              <h3>Votre coiffeuse a domicile</h3>
+              <a href="">Prestations</a>
+              <a href="">Reservation</a>
+            </div>
           </div>
         </div>
       </section>
-                
-
-                
     </main>
 
     <section>
@@ -100,7 +182,6 @@
       </div>
     </section>
 
-    
     <section>
       <button class="glow-button">
         <span>Button</span>
@@ -108,25 +189,44 @@
     </section>
     <section>
       <div class="box">
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perferendis recusandae voluptate eum necessitatibus quasi voluptates ipsa assumenda excepturi modi! Repudiandae neque dolores esse, voluptate laborum nihil enim voluptas odit magni vero officiis alias placeat assumenda sint saepe corrupti vel, quos beatae incidunt blanditiis! Aperiam voluptas quod itaque facere labore.</div>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus ea tempore, labore molestias dolorum, corporis et sapiente iste iure porro quos itaque repellat odit accusantium harum eligendi nemo consequuntur molestiae at mollitia aut libero. Molestiae placeat veniam, eaque omnis quisquam quidem quaerat odit iusto, iste nulla autem quos expedita.</div>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusamus tenetur mollitia necessitatibus excepturi consequatur voluptatum beatae officiis, eligendi labore dicta deserunt sequi? Aliquid blanditiis similique quisquam quo non molestiae, corporis nostrum natus, itaque iste soluta molestias harum quaerat. Porro nobis molestiae pariatur vel ipsa modi iste error tempore odit?</div>
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat modi rerum maxime laudantium fugit, deserunt repellendus maiores perspiciatis aliquam quasi, ducimus ipsam illo. Magni praesentium iusto saepe ipsum labore natus! Ipsam beatae quas eum harum explicabo laboriosam nisi sapiente sint? Error sed illum fugit, suscipit vel labore sapiente autem?</div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          perferendis recusandae voluptate eum necessitatibus quasi voluptates
+          ipsa assumenda excepturi modi! Repudiandae neque dolores esse,
+          voluptate laborum nihil enim voluptas odit magni vero officiis alias
+          placeat assumenda sint saepe corrupti vel, quos beatae incidunt
+          blanditiis! Aperiam voluptas quod itaque facere labore.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          accusamus ea tempore, labore molestias dolorum, corporis et sapiente
+          iste iure porro quos itaque repellat odit accusantium harum eligendi
+          nemo consequuntur molestiae at mollitia aut libero. Molestiae placeat
+          veniam, eaque omnis quisquam quidem quaerat odit iusto, iste nulla
+          autem quos expedita.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+          accusamus tenetur mollitia necessitatibus excepturi consequatur
+          voluptatum beatae officiis, eligendi labore dicta deserunt sequi?
+          Aliquid blanditiis similique quisquam quo non molestiae, corporis
+          nostrum natus, itaque iste soluta molestias harum quaerat. Porro nobis
+          molestiae pariatur vel ipsa modi iste error tempore odit?
+        </div>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+          repellat modi rerum maxime laudantium fugit, deserunt repellendus
+          maiores perspiciatis aliquam quasi, ducimus ipsam illo. Magni
+          praesentium iusto saepe ipsum labore natus! Ipsam beatae quas eum
+          harum explicabo laboriosam nisi sapiente sint? Error sed illum fugit,
+          suscipit vel labore sapiente autem?
+        </div>
       </div>
     </section>
     <section>
       <a href="#" class="coeur">BELIEVEMY</a>
     </section>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     <footer>
       <nav>
         <ul class="liensUl2">
